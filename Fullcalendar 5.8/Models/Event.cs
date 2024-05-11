@@ -14,5 +14,6 @@ namespace Fullcalendar_5._8.Models
 
         //Relations
         public virtual Location Location { get; set; }
+        public virtual User User { get; set; }
     }
 }
